@@ -52,6 +52,6 @@ app.get('/view/card/:number', (req, res) => {
 });
 
 // Start the Express server
-app.listen(3000, () => {
+app.listen(8080, () => {
     console.log('Express server is running on port 3000');
 });
